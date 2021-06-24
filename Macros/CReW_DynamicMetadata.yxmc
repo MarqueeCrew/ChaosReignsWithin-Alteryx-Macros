@@ -681,7 +681,7 @@
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField field="SizeWithScale" type="V_String" size="50000" expression="iif(isnull([Scale]), tostring([Scale]), tostring([Size]) + &quot;.&quot; + tostring([Scale]))" />
+            <FormulaField field="SizeWithScale" type="V_String" size="50000" expression="iif(isnull([Scale]), tostring([Size]), tostring([Size]) + &quot;.&quot; + tostring([Scale]))" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
